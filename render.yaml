@@ -1,0 +1,12 @@
+# Render Blueprint: free web service, one process serves API + UI.
+services:
+  - type: web
+    name: datashadow
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

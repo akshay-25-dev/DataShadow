@@ -1,0 +1,17 @@
+{
+  "name": "datashadow-liquid",
+  "private": true,
+  "type": "module",
+  "description": "DataShadow Web: browser-first, zero-trust personal data architecture (SNH-WD-03)",
+  "workspaces": ["packages/*", "server", "client"],
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c cyan,magenta \"npm run dev -w @datashadow/server\" \"npm run dev -w @datashadow/client\"",
+    "test": "npm test -w @datashadow/core && npm test -w @datashadow/server",
+    "eval": "node scripts/eval.js",
+    "build": "npm run build -w @datashadow/client",
+    "start": "npm run start -w @datashadow/server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

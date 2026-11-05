@@ -1,0 +1,71 @@
+{
+  "seed": 20261104,
+  "leakage": {
+    "profiles": 3000,
+    "traditional": {
+      "avgPayloadBytes": 378,
+      "avgSensitiveFieldsExposed": 10.13,
+      "avgSensitiveBytesExposed": 119
+    },
+    "datashadow": {
+      "avgPayloadBytes": 365,
+      "avgSensitiveFieldsExposed": 0,
+      "avgSensitiveBytesExposed": 0
+    }
+  },
+  "decisionMix": {
+    "LIKELY_DECLINE": 721,
+    "MANUAL_REVIEW": 1392,
+    "LIKELY_APPROVE": 887
+  },
+  "accuracy": [
+    {
+      "epsilonPerFeature": "banding only",
+      "epsilonPerRequest": 0,
+      "decisionAgreementPct": 85.1,
+      "meanAbsScoreError": 18.8,
+      "falseApprovePct": 4.9,
+      "falseDeclinePct": 1.7
+    },
+    {
+      "epsilonPerFeature": 8,
+      "epsilonPerRequest": 40,
+      "decisionAgreementPct": 84.7,
+      "meanAbsScoreError": 19,
+      "falseApprovePct": 5,
+      "falseDeclinePct": 1.8
+    },
+    {
+      "epsilonPerFeature": 4,
+      "epsilonPerRequest": 20,
+      "decisionAgreementPct": 77.7,
+      "meanAbsScoreError": 29.6,
+      "falseApprovePct": 7,
+      "falseDeclinePct": 4.2
+    },
+    {
+      "epsilonPerFeature": 2,
+      "epsilonPerRequest": 10,
+      "decisionAgreementPct": 55.3,
+      "meanAbsScoreError": 64.4,
+      "falseApprovePct": 13.9,
+      "falseDeclinePct": 13
+    },
+    {
+      "epsilonPerFeature": 1,
+      "epsilonPerRequest": 5,
+      "decisionAgreementPct": 43.6,
+      "meanAbsScoreError": 86.2,
+      "falseApprovePct": 16.5,
+      "falseDeclinePct": 20.4
+    },
+    {
+      "epsilonPerFeature": 0.5,
+      "epsilonPerRequest": 2.5,
+      "decisionAgreementPct": 38.4,
+      "meanAbsScoreError": 94.6,
+      "falseApprovePct": 16.6,
+      "falseDeclinePct": 24
+    }
+  ]
+}
