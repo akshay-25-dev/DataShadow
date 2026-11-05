@@ -1,25 +1,12 @@
 <div align="center">
 
-# DataShadow
+<img alt="DataShadow: check a loan application without the server ever seeing the applicant's Aadhaar, PAN or income. 10.1 sensitive fields sent per request drops to 0; 85.1% of decisions match the exact-value model; 43 automated tests pass, with zero runtime AI." src="docs/assets/banner.jpg" width="100%">
 
-### Check a loan application without the server ever seeing<br>the applicant's Aadhaar, PAN or income.
+<a href="https://YOUR-APP.onrender.com"><img alt="Live demo" src="docs/assets/btn-demo.png" height="52"></a>
+<a href="https://YOUR-VIDEO-LINK"><img alt="Demo video" src="docs/assets/btn-video.png" height="52"></a>
+<a href="docs/DEMO.md"><img alt="Demo script and judge Q&A" src="docs/assets/btn-script.png" height="52"></a>
 
-Zero-trust personal data architecture for the web &nbsp;·&nbsp; **Hackathon track SNH-WD-03**
-
-<p>
-  <a href="https://YOUR-APP.onrender.com"><img alt="Live demo" src="https://img.shields.io/badge/%E2%96%B6%20%20LIVE%20DEMO-open%20app-3a4fe6?style=for-the-badge&labelColor=12172e"></a>
-  <a href="https://YOUR-VIDEO-LINK"><img alt="Demo video" src="https://img.shields.io/badge/%E2%96%B6%20%20DEMO%20VIDEO-2%20minutes-dc3b4b?style=for-the-badge&labelColor=12172e"></a>
-  <a href="docs/DEMO.md"><img alt="Demo script" src="https://img.shields.io/badge/%F0%9F%93%84%20%20DEMO%20SCRIPT-judge%20Q%26A-0a8f80?style=for-the-badge&labelColor=12172e"></a>
-</p>
-
-<p>
-  <img alt="43 tests passing" src="https://img.shields.io/badge/tests-43%20passing-0a8f80?style=flat-square&labelColor=12172e">
-  <img alt="Server sees bands only" src="https://img.shields.io/badge/server%20sees-bands%20only-3a4fe6?style=flat-square&labelColor=12172e">
-  <img alt="Node 20 or newer" src="https://img.shields.io/badge/node-%E2%89%A5%2020-566082?style=flat-square&labelColor=12172e&logo=nodedotjs&logoColor=white">
-  <img alt="React 18" src="https://img.shields.io/badge/React-18-566082?style=flat-square&labelColor=12172e&logo=react&logoColor=61dafb">
-  <img alt="No runtime AI or external APIs" src="https://img.shields.io/badge/runtime%20AI-none-566082?style=flat-square&labelColor=12172e">
-  <img alt="Synthetic data only" src="https://img.shields.io/badge/data-synthetic-566082?style=flat-square&labelColor=12172e">
-</p>
+<br>
 
 <img alt="DataShadow after a run: the eligibility check passes while the DataShadow leak meter reads 0%" src="docs/screenshots/hero.jpg" width="900">
 
