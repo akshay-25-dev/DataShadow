@@ -8,7 +8,7 @@ Zero-trust personal data architecture for the web. **Hackathon track SNH-WD-03.*
 
 ![Tests](https://img.shields.io/badge/tests-43%20passing-1f9d8a) ![Node](https://img.shields.io/badge/node-%E2%89%A5%2020-3a4fe6) ![AI](https://img.shields.io/badge/runtime%20AI%20or%20external%20APIs-none-6b7280) ![Data](https://img.shields.io/badge/data-100%25%20synthetic-6b7280)
 
-**[Live demo](https://YOUR-APP.onrender.com)** · **[2-minute video](https://YOUR-VIDEO-LINK)** · **[Demo script and judge Q&A](docs/DEMO.md)**
+**[Live demo](https://datashadow.onrender.com/)** · **[2-minute video](https://YOUR-VIDEO-LINK)** · **[Demo script and judge Q&A](docs/DEMO.md)**
 
 ![DataShadow after a run: the eligibility check passes while the leak meter for DataShadow reads 0%](docs/screenshots/hero.jpg)
 
